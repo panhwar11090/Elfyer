@@ -124,9 +124,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
-
+import { StaticImageData } from "next/image";
 interface CardProps {
-    images: { src: string; alt: string }[];
+    // images: { src: string; alt: string ; }[];
+    images: { src: string | StaticImageData; alt: string }[];
     headings: string[];
     sectionHeading : any
 }
