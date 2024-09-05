@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
 
-type Props = {}
+type Props = {};
 
 const Footer = (props: Props) => {
   return (
@@ -14,7 +14,6 @@ const Footer = (props: Props) => {
               type='text'
               className='w-full rounded-l p-2 bg-transparent text-white focus:border-transparent focus:outline-none'
               placeholder='Your Email'
-              
             />
             <button className='text-orange-600 bg-transparent'>Subscribe</button>
         </div>
@@ -23,7 +22,7 @@ const Footer = (props: Props) => {
             <Link href='#' className='hover:text-orange-500'>Best Sellers</Link>
             <Link href='#' className='hover:text-orange-500'>Gift Ideas</Link>
             <Link href='#' className='hover:text-orange-500'>New Releases</Link>
-            <Link href='#' className='hover:text-orange-500'>Today Deals</Link>
+            <Link href='#' className='hover:text-orange-500'>Today&apos;s Deals</Link>
             <Link href='#' className='hover:text-orange-500'>Customer Service</Link>
             </div>
         </div>
@@ -31,11 +30,11 @@ const Footer = (props: Props) => {
             <p>Help Line Number : +1 1800 1200 1200</p>
         </div>
 
-        <div className='w-full flex justify-center items-center   text-white md:flex-row  '>
+        <div className='w-full flex justify-center items-center text-white md:flex-row'>
             <p>© 2020 All Rights Reserved. Design by Free html Templates</p>
         </div>
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
