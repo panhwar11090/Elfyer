@@ -149,7 +149,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faCartShopping, faUser, faBars, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
-import Sidebar from '../Sidebar/page';
+import Sidebar from '../sidebar/page';
 
 const AbovePage = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
