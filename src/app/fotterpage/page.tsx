@@ -23,7 +23,7 @@ const Footer = (props: Props) => {
             <Link href='#' className='hover:text-orange-500'>Best Sellers</Link>
             <Link href='#' className='hover:text-orange-500'>Gift Ideas</Link>
             <Link href='#' className='hover:text-orange-500'>New Releases</Link>
-            <Link href='#' className='hover:text-orange-500'>Today's Deals</Link>
+            <Link href='#' className='hover:text-orange-500'>Today Deals</Link>
             <Link href='#' className='hover:text-orange-500'>Customer Service</Link>
             </div>
         </div>
