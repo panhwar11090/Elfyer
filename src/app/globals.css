@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "@fontsource/poppins"; /* Defaults to weight 400 */
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
